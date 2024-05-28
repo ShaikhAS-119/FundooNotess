@@ -1,0 +1,6 @@
+2024-05-17 16:10:13.4077 WARN Unable to bind to https://localhost:5001 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2024-05-17 16:10:13.4336 WARN Unable to bind to https://localhost:5001 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2024-05-17 16:10:13.4336 FATAL Unable to start Kestrel.
+2024-05-17 16:11:23.3866 WARN Unable to bind to https://localhost:5001 on the IPv4 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2024-05-17 16:11:23.4070 WARN Unable to bind to https://localhost:5001 on the IPv6 loopback interface: 'An attempt was made to access a socket in a way forbidden by its access permissions.'.
+2024-05-17 16:11:23.4070 FATAL Unable to start Kestrel.
