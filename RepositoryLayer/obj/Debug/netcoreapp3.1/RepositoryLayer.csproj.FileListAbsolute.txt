@@ -233,3 +233,4 @@ A:\Quantum Phinance\web API\LoginRegister - Original &Uploaded\RepositoryLayer\o
 A:\Quantum Phinance\web API\LoginRegister - Original &Uploaded\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
 A:\Quantum Phinance\web API\LoginRegister - Original &Uploaded\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb
 A:\Quantum Phinance\web API\LoginRegister - Original &Uploaded\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.genruntimeconfig.cache
+A:\Quantum Phinance\web API\LoginRegister - Original &Uploaded\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.sourcelink.json

@@ -34,16 +34,14 @@ namespace LoginRegisterAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            //register swagger
-            //services.AddSwaggerGen();
+            //register swagger           
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Login and Registration",
-                    Description = "Implementation of Swagger login and registration",
+                    Title = "Fundoo Notes",
+                    Description = "Implementation of Fundoo Notes",
                     TermsOfService = new Uri("https://www.bridgelabz.com/"),
                     Contact = new OpenApiContact
                     {
