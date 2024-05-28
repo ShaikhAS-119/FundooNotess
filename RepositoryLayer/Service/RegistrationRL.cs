@@ -30,8 +30,8 @@ namespace RepositoryLayer.Service
             SqlConnection con = null;
             try
             {
-                
-                con = new SqlConnection(_configuration["ConnectionStrings:SqlConnection"]);
+                string connection = Environment.GetEnvironmentVariable("SqlConnection");
+                con = new SqlConnection(connection);
                 string Checkquery = $"select Email,Password from Persons where Email = '{model.Email}';";
                 string Registerquery = $"Insert into Persons(FirstName,LastName,Email,Password)values('{model.FirstName}','{model.LastName}','{model.Email}','{model.Password}');";
 
@@ -72,7 +72,7 @@ namespace RepositoryLayer.Service
             SqlConnection con = null;
             try
             {
-                string connection = _configuration["ConnectionStrings:SqlConnection"];
+                string connection = Environment.GetEnvironmentVariable("SqlConnection");
                 con = new SqlConnection(connection);                
 
                 string query = $"select Id,Email,Password from Persons where Email = '{model.Email}';";
@@ -94,9 +94,9 @@ namespace RepositoryLayer.Service
                     var pass = VerifyPass.GetPass(model.Password, hashpass);
                     if (pass)
                     {
-                        var key = _configuration["jwt:key"];
-                        var issuer = _configuration["jwt:Issuer"];
-                        var audience = _configuration["jwt:Audience"];
+                        var key = Environment.GetEnvironmentVariable("jwtKey");
+                        var issuer = Environment.GetEnvironmentVariable("jwtIssuer");
+                        var audience = Environment.GetEnvironmentVariable("jwtAudience");
                       
                         var token = TokenGenerate.Generate.Token(key, issuer, audience,id, model);
                         return token;
@@ -123,7 +123,8 @@ namespace RepositoryLayer.Service
             SqlConnection con = null;
             try
             {
-                con = new SqlConnection(_configuration.GetConnectionString("SqlConnection"));
+                string connection = Environment.GetEnvironmentVariable("SqlConnection");
+                con = new SqlConnection(connection);
 
                 string query = $"select Id, Email from Persons where Email = '{model.Email}';";
 
@@ -152,18 +153,18 @@ namespace RepositoryLayer.Service
             if (Email == model.Email)
             {
 
-                var key = _configuration["Reset:ResetKey"];
-                var issuer = _configuration["jwt:Issuer"];
-                var audience = _configuration["jwt:Audience"];
+                var key = Environment.GetEnvironmentVariable("ResetKey");
+                var issuer = Environment.GetEnvironmentVariable("jwtIssuer");
+                var audience = Environment.GetEnvironmentVariable("jwtAudience");
 
                 var token = TokenGenerate.Generate.ResetPassToken(model.Email, key, issuer, audience);
 
-                var port = _configuration["MailValues:Port"];
-                var host = _configuration["MailValues:Host"];
-                var from = _configuration["MailValues:From"];
-                var fromPass = _configuration["MailValues:FromPassword"];
-                var subject = _configuration["MailValues:Subject"];
-                var resetUrl = _configuration["ResetUrl:ResetPassUrl"];
+                var port = Environment.GetEnvironmentVariable("mailPort");
+                var host = Environment.GetEnvironmentVariable("mailHost");
+                var from = Environment.GetEnvironmentVariable("mailFrom");
+                var fromPass = Environment.GetEnvironmentVariable("mailFromPassword");
+                var subject = Environment.GetEnvironmentVariable("mailSubject");
+                var resetUrl = Environment.GetEnvironmentVariable("ResetPassUrl");
                 var body = token.ToString();
 
                 var mail = EmailService.EmailService.ForgetpasswordMail(model, port, host, from, fromPass, subject, body, resetUrl);
@@ -184,8 +185,8 @@ namespace RepositoryLayer.Service
                 ValidateAudience = true,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
-                ValidIssuer = _configuration["jwt:Issuer"],
-                ValidAudience = _configuration["jwt:Audience"],
+                ValidIssuer = Environment.GetEnvironmentVariable("jwtIssuer"),
+                ValidAudience = Environment.GetEnvironmentVariable("jwtAudience"),
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Reset:ResetKey"]))
             };
 
@@ -199,7 +200,8 @@ namespace RepositoryLayer.Service
             }
             var email = emailClaim.Value;
 
-            using (SqlConnection con = new SqlConnection(_configuration.GetConnectionString("SqlConnection")))
+            
+            using (SqlConnection con = new SqlConnection(Environment.GetEnvironmentVariable("SqlConnection")))
             {
                 string Registerquery = $"UPDATE Persons SET Password = '{hashpass}' where Email = '{email}';";
 

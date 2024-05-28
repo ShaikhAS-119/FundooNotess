@@ -77,9 +77,9 @@ namespace LoginRegisterAPI
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = Configuration["jwt:Issuer"],
-                        ValidAudience = Configuration["jwt:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["jwt:Key"]))
+                        ValidIssuer = Environment.GetEnvironmentVariable("jwtIssuer"),
+                        ValidAudience = Environment.GetEnvironmentVariable("jwtAudience"),
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable("jwtKey")))
                     };
                 });
 
