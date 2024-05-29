@@ -5294,11 +5294,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+      "projectUniqueName": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
       "projectName": "RabbitMQConsumer",
-      "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+      "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
       "packagesPath": "C:\\Users\\shaik\\.nuget\\packages\\",
-      "outputPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RabbitMQConsumer\\obj\\",
+      "outputPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RabbitMQConsumer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",

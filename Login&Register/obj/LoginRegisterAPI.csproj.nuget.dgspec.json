@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\Login&Register\\LoginRegisterAPI.csproj": {}
+    "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\Login&Register\\LoginRegisterAPI.csproj": {}
   },
   "projects": {
-    "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\shaik\\.nuget\\packages\\",
-        "outputPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj"
               },
-              "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj"
+              "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -129,14 +129,14 @@
         }
       }
     },
-    "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\Login&Register\\LoginRegisterAPI.csproj": {
+    "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\Login&Register\\LoginRegisterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\Login&Register\\LoginRegisterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\Login&Register\\LoginRegisterAPI.csproj",
         "projectName": "LoginRegisterAPI",
-        "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\Login&Register\\LoginRegisterAPI.csproj",
+        "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\Login&Register\\LoginRegisterAPI.csproj",
         "packagesPath": "C:\\Users\\shaik\\.nuget\\packages\\",
-        "outputPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\Login&Register\\obj\\",
+        "outputPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\Login&Register\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,14 +153,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj"
               },
-              "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj"
+              "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -260,14 +260,14 @@
         }
       }
     },
-    "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj": {
+    "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\shaik\\.nuget\\packages\\",
-        "outputPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\obj\\",
+        "outputPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -342,14 +342,14 @@
         }
       }
     },
-    "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\shaik\\.nuget\\packages\\",
-        "outputPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\RepositoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -366,8 +366,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\ModelLayer\\ModelLayer.csproj"
               }
             }
           }

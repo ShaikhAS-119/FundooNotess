@@ -22,8 +22,6 @@
         "mailSubject": "Forget password",
         "mailHost": "smtp.gmail.com",
         "mailPort": "587"
-
-
       }
     },
     "Login_Register": {
@@ -31,7 +29,23 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "AS": ""
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SqlConnection": "Data Source=.\\SQLEXPRESS;Database=scaffolding;Integrated Security=true;",
+
+        "jwtKey": "vsZv1gMPPVplwIaJmp7U2mykivgkWlq8",
+        "jwtIssuer": "https://localhost:44327",
+        "jwtAudience": "https://localhost:44327",
+
+        "ResetKey": "MKA6xBpOBdNBrVnzYHW9uTgHSRjGh",
+
+        "ResetPassUrl": "https://localhost:44327/api/register/resetPass",
+
+        "mailFrom": "shaikh119as@gmail.com",
+        "mailFrom_Name": "Shaikh Abid",
+        "mailFromPassword": "zhop qull rtwp ltbe",
+        "mailSubject": "Forget password",
+        "mailHost": "smtp.gmail.com",
+        "mailPort": "587"
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     },

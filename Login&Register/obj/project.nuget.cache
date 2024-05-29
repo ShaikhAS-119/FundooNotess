@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C9r/U+Wa0p3FmBo/Fi1ZIJ6I6SMkUqK5cCCIa0nJXj2UO9anuqQF+8abukyonA2rl+BYklOy11zW3M2PLFJj+w==",
+  "dgSpecHash": "BVLIXMw0sDV2odg0vAVpwH7OIsKWLaZ9bdFrRK/m/Vnmt1k+OcRVMcpv/2ggE+MCDcrI4VxaLqBOCC71foAL3A==",
   "success": true,
-  "projectFilePath": "A:\\Quantum Phinance\\web API\\LoginRegister - Original &Uploaded\\Login&Register\\LoginRegisterAPI.csproj",
+  "projectFilePath": "C:\\Users\\shaik\\OneDrive\\Desktop\\Fundoo\\FundooNotes\\Login&Register\\LoginRegisterAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shaik\\.nuget\\packages\\dotnetenv\\3.0.0\\dotnetenv.3.0.0.nupkg.sha512",
     "C:\\Users\\shaik\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.32\\microsoft.aspnetcore.authentication.jwtbearer.3.1.32.nupkg.sha512",
